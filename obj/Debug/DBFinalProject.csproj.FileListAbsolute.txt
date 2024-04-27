@@ -1,0 +1,15 @@
+D:\UET\DB\DBFinalProject\DBFinalProject\bin\Debug\DBFinalProject.exe.config
+D:\UET\DB\DBFinalProject\DBFinalProject\bin\Debug\DBFinalProject.exe
+D:\UET\DB\DBFinalProject\DBFinalProject\bin\Debug\DBFinalProject.pdb
+D:\UET\DB\DBFinalProject\DBFinalProject\bin\Debug\Guna.UI2.dll
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.csproj.AssemblyReference.cache
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Properties.Resources.resources
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.csproj.GenerateResource.cache
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.csproj.CoreCompileInputs.cache
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.csproj.CopyComplete
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.exe
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.pdb
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.SignInFrom.resources
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.AdminMenuForm.resources
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.MainWindowForm.resources
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.TeacherMenuForm.resources
