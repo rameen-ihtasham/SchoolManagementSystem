@@ -13,3 +13,7 @@ D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.SignInFro
 D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.AdminMenuForm.resources
 D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.MainWindowForm.resources
 D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.TeacherMenuForm.resources
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.ManageStudentsForm.resources
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.ManageTeachersForm.resources
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.AddTeachersForm.resources
+D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.ManageClassesForm.resources

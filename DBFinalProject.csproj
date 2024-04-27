@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\AddTeachersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddTeachersForm.Designer.cs">
+      <DependentUpon>AddTeachersForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\AdminMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,24 @@
     </Compile>
     <Compile Include="Forms\MainWindowForm.Designer.cs">
       <DependentUpon>MainWindowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageClassesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageClassesForm.Designer.cs">
+      <DependentUpon>ManageClassesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageStudentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageStudentsForm.Designer.cs">
+      <DependentUpon>ManageStudentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageTeachersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageTeachersForm.Designer.cs">
+      <DependentUpon>ManageTeachersForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SignInFrom.cs">
       <SubType>Form</SubType>
@@ -78,11 +102,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AddTeachersForm.resx">
+      <DependentUpon>AddTeachersForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdminMenuForm.resx">
       <DependentUpon>AdminMenuForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainWindowForm.resx">
       <DependentUpon>MainWindowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageClassesForm.resx">
+      <DependentUpon>ManageClassesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageStudentsForm.resx">
+      <DependentUpon>ManageStudentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageTeachersForm.resx">
+      <DependentUpon>ManageTeachersForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SignInFrom.resx">
       <DependentUpon>SignInFrom.cs</DependentUpon>
