@@ -124,6 +124,12 @@
     <Compile Include="Forms\ViewHomework.Designer.cs">
       <DependentUpon>ViewHomework.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ViewResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ViewResult.Designer.cs">
+      <DependentUpon>ViewResult.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\AddTeachersForm.resx">
@@ -161,6 +167,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ViewHomework.resx">
       <DependentUpon>ViewHomework.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ViewResult.resx">
+      <DependentUpon>ViewResult.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

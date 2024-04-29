@@ -32,7 +32,7 @@ namespace DBFinalProject.Forms
         }
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-           /* OpenChildForm(new ViewResult());*/
+            OpenChildForm(new ViewResult());
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
