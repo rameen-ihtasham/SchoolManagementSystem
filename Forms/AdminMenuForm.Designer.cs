@@ -37,9 +37,9 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.MainAdminScreen = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +53,7 @@
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(241, 557);
+            this.guna2Panel1.Size = new System.Drawing.Size(362, 857);
             this.guna2Panel1.TabIndex = 0;
             // 
             // guna2Panel5
@@ -66,10 +66,10 @@
             this.guna2Panel5.Controls.Add(this.guna2Button2);
             this.guna2Panel5.Controls.Add(this.guna2Button1);
             this.guna2Panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel5.Location = new System.Drawing.Point(0, 132);
+            this.guna2Panel5.Location = new System.Drawing.Point(0, 203);
             this.guna2Panel5.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.Size = new System.Drawing.Size(241, 425);
+            this.guna2Panel5.Size = new System.Drawing.Size(362, 654);
             this.guna2Panel5.TabIndex = 0;
             // 
             // guna2Button7
@@ -84,10 +84,9 @@
             this.guna2Button7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
             this.guna2Button7.Font = new System.Drawing.Font("Sitka Display", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.Location = new System.Drawing.Point(0, 378);
-            this.guna2Button7.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Button7.Location = new System.Drawing.Point(0, 582);
             this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(241, 47);
+            this.guna2Button7.Size = new System.Drawing.Size(362, 72);
             this.guna2Button7.TabIndex = 6;
             this.guna2Button7.Text = "Home";
             // 
@@ -103,10 +102,9 @@
             this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
             this.guna2Button6.Font = new System.Drawing.Font("Sitka Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(0, 235);
-            this.guna2Button6.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Button6.Location = new System.Drawing.Point(0, 360);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(241, 47);
+            this.guna2Button6.Size = new System.Drawing.Size(362, 72);
             this.guna2Button6.TabIndex = 5;
             this.guna2Button6.Text = "Generate Reports";
             // 
@@ -122,10 +120,9 @@
             this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
             this.guna2Button5.Font = new System.Drawing.Font("Sitka Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(0, 188);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Button5.Location = new System.Drawing.Point(0, 288);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(241, 47);
+            this.guna2Button5.Size = new System.Drawing.Size(362, 72);
             this.guna2Button5.TabIndex = 4;
             this.guna2Button5.Text = "Assign Subjects";
             // 
@@ -141,10 +138,9 @@
             this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
             this.guna2Button4.Font = new System.Drawing.Font("Sitka Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(0, 141);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Button4.Location = new System.Drawing.Point(0, 216);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(241, 47);
+            this.guna2Button4.Size = new System.Drawing.Size(362, 72);
             this.guna2Button4.TabIndex = 3;
             this.guna2Button4.Text = "Manage Subjects";
             // 
@@ -160,10 +156,9 @@
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
             this.guna2Button3.Font = new System.Drawing.Font("Sitka Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(0, 94);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Button3.Location = new System.Drawing.Point(0, 144);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(241, 47);
+            this.guna2Button3.Size = new System.Drawing.Size(362, 72);
             this.guna2Button3.TabIndex = 2;
             this.guna2Button3.Text = "Manage Classes";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
@@ -180,10 +175,9 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
             this.guna2Button2.Font = new System.Drawing.Font("Sitka Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(0, 47);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Button2.Location = new System.Drawing.Point(0, 72);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(241, 47);
+            this.guna2Button2.Size = new System.Drawing.Size(362, 72);
             this.guna2Button2.TabIndex = 1;
             this.guna2Button2.Text = "Manage Students";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -201,34 +195,11 @@
             this.guna2Button1.Font = new System.Drawing.Font("Sitka Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(241, 47);
+            this.guna2Button1.Size = new System.Drawing.Size(362, 72);
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Text = "Manage Teachers";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel2.Location = new System.Drawing.Point(241, 0);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(807, 130);
-            this.guna2Panel2.TabIndex = 1;
-            // 
-            // MainAdminScreen
-            // 
-            this.MainAdminScreen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(91)))), ((int)(((byte)(111)))));
-            this.MainAdminScreen.BackgroundImage = global::DBFinalProject.Properties.Resources.Circle_Education_Badge_Logo__1_;
-            this.MainAdminScreen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.MainAdminScreen.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MainAdminScreen.Location = new System.Drawing.Point(241, 130);
-            this.MainAdminScreen.Margin = new System.Windows.Forms.Padding(0);
-            this.MainAdminScreen.Name = "MainAdminScreen";
-            this.MainAdminScreen.Size = new System.Drawing.Size(807, 427);
-            this.MainAdminScreen.TabIndex = 2;
             // 
             // guna2Panel4
             // 
@@ -238,18 +209,41 @@
             this.guna2Panel4.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel4.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(241, 132);
+            this.guna2Panel4.Size = new System.Drawing.Size(362, 203);
             this.guna2Panel4.TabIndex = 0;
             this.guna2Panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel4_Paint);
             // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel2.Location = new System.Drawing.Point(362, 0);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(1210, 200);
+            this.guna2Panel2.TabIndex = 1;
+            // 
+            // MainAdminScreen
+            // 
+            this.MainAdminScreen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(91)))), ((int)(((byte)(111)))));
+            this.MainAdminScreen.BackgroundImage = global::DBFinalProject.Properties.Resources.Circle_Education_Badge_Logo__1_;
+            this.MainAdminScreen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.MainAdminScreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MainAdminScreen.Location = new System.Drawing.Point(362, 200);
+            this.MainAdminScreen.Margin = new System.Windows.Forms.Padding(0);
+            this.MainAdminScreen.Name = "MainAdminScreen";
+            this.MainAdminScreen.Size = new System.Drawing.Size(1210, 657);
+            this.MainAdminScreen.TabIndex = 2;
+            // 
             // AdminMenuForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1048, 557);
+            this.ClientSize = new System.Drawing.Size(1572, 857);
             this.Controls.Add(this.MainAdminScreen);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "AdminMenuForm";
             this.Text = "AdminMenuForm";
             this.guna2Panel1.ResumeLayout(false);

@@ -94,11 +94,29 @@
     <Compile Include="Forms\SignInFrom.Designer.cs">
       <DependentUpon>SignInFrom.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\StudentMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentMenuForm.Designer.cs">
+      <DependentUpon>StudentMenuForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\TeacherMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\TeacherMenuForm.Designer.cs">
       <DependentUpon>TeacherMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VIewAttendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VIewAttendance.Designer.cs">
+      <DependentUpon>VIewAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ViewHomework.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ViewHomework.Designer.cs">
+      <DependentUpon>ViewHomework.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -123,8 +141,17 @@
     <EmbeddedResource Include="Forms\SignInFrom.resx">
       <DependentUpon>SignInFrom.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentMenuForm.resx">
+      <DependentUpon>StudentMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\TeacherMenuForm.resx">
       <DependentUpon>TeacherMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VIewAttendance.resx">
+      <DependentUpon>VIewAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ViewHomework.resx">
+      <DependentUpon>ViewHomework.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
