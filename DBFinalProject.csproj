@@ -64,6 +64,12 @@
     <Compile Include="Forms\AdminMenuForm.Designer.cs">
       <DependentUpon>AdminMenuForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AdmissionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdmissionForm.Designer.cs">
+      <DependentUpon>AdmissionForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MainWindowForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdminMenuForm.resx">
       <DependentUpon>AdminMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdmissionForm.resx">
+      <DependentUpon>AdmissionForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainWindowForm.resx">
       <DependentUpon>MainWindowForm.cs</DependentUpon>

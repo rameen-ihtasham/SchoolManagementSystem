@@ -39,3 +39,4 @@ C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.exe
 C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.pdb
 C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.VIewAttendance.resources
 C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.ViewHomework.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.AdmissionForm.resources

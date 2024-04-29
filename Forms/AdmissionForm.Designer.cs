@@ -1,6 +1,6 @@
 ﻿namespace DBFinalProject.Forms
 {
-    partial class AddTeachersForm
+    partial class AdmissionForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,6 @@
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -43,14 +42,15 @@
             this.AddBtn = new Guna.UI2.WinForms.Guna2Button();
             this.AdressTB = new System.Windows.Forms.RichTextBox();
             this.DOB = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.DesignationCB = new Guna.UI2.WinForms.Guna2ComboBox();
             this.GenderCB = new Guna.UI2.WinForms.Guna2ComboBox();
             this.LastNameTB = new Guna.UI2.WinForms.Guna2TextBox();
             this.ContactTB = new Guna.UI2.WinForms.Guna2TextBox();
             this.CNICTB = new Guna.UI2.WinForms.Guna2TextBox();
             this.FirstNameTB = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Panel1.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,8 +61,8 @@
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1186, 114);
-            this.guna2Panel1.TabIndex = 0;
+            this.guna2Panel1.Size = new System.Drawing.Size(1203, 114);
+            this.guna2Panel1.TabIndex = 1;
             // 
             // guna2HtmlLabel1
             // 
@@ -70,26 +70,21 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Sitka Heading", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(336, 15);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(368, 14);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(516, 83);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(409, 83);
             this.guna2HtmlLabel1.TabIndex = 1;
-            this.guna2HtmlLabel1.Text = "Teacher Information";
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Controls.Add(this.guna2Panel3);
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 114);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Padding = new System.Windows.Forms.Padding(15, 15, 15, 15);
-            this.guna2Panel2.Size = new System.Drawing.Size(1186, 483);
-            this.guna2Panel2.TabIndex = 1;
+            this.guna2HtmlLabel1.Text = "Admission Form";
             // 
             // guna2Panel3
             // 
+            this.guna2Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2Panel3.Controls.Add(this.guna2ComboBox1);
+            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel10);
+            this.guna2Panel3.Controls.Add(this.guna2TextBox1);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel9);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel8);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel7);
@@ -101,19 +96,17 @@
             this.guna2Panel3.Controls.Add(this.AddBtn);
             this.guna2Panel3.Controls.Add(this.AdressTB);
             this.guna2Panel3.Controls.Add(this.DOB);
-            this.guna2Panel3.Controls.Add(this.DesignationCB);
             this.guna2Panel3.Controls.Add(this.GenderCB);
             this.guna2Panel3.Controls.Add(this.LastNameTB);
             this.guna2Panel3.Controls.Add(this.ContactTB);
             this.guna2Panel3.Controls.Add(this.CNICTB);
             this.guna2Panel3.Controls.Add(this.FirstNameTB);
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel3.Location = new System.Drawing.Point(15, 15);
+            this.guna2Panel3.Location = new System.Drawing.Point(17, 130);
             this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this.guna2Panel3.Size = new System.Drawing.Size(1156, 453);
-            this.guna2Panel3.TabIndex = 0;
+            this.guna2Panel3.Padding = new System.Windows.Forms.Padding(8);
+            this.guna2Panel3.Size = new System.Drawing.Size(1173, 543);
+            this.guna2Panel3.TabIndex = 2;
             // 
             // guna2HtmlLabel9
             // 
@@ -133,7 +126,7 @@
             this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel8.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(429, 265);
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(842, 261);
             this.guna2HtmlLabel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
             this.guna2HtmlLabel8.Size = new System.Drawing.Size(99, 44);
@@ -146,7 +139,7 @@
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(429, 34);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(437, 34);
             this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             this.guna2HtmlLabel7.Size = new System.Drawing.Size(127, 44);
@@ -159,7 +152,7 @@
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(825, 34);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(842, 34);
             this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(63, 44);
@@ -184,7 +177,7 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(429, 154);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(437, 154);
             this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(90, 44);
@@ -197,12 +190,12 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(825, 154);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(842, 154);
             this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(144, 44);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(188, 44);
             this.guna2HtmlLabel3.TabIndex = 27;
-            this.guna2HtmlLabel3.Text = "Designation";
+            this.guna2HtmlLabel3.Text = "Registration No";
             // 
             // guna2HtmlLabel2
             // 
@@ -226,7 +219,7 @@
             this.AddBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(137)))), ((int)(((byte)(121)))));
             this.AddBtn.Font = new System.Drawing.Font("Sitka Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.AddBtn.Location = new System.Drawing.Point(930, 346);
+            this.AddBtn.Location = new System.Drawing.Point(909, 447);
             this.AddBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.Size = new System.Drawing.Size(195, 72);
@@ -236,7 +229,7 @@
             // AdressTB
             // 
             this.AdressTB.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.AdressTB.Location = new System.Drawing.Point(429, 309);
+            this.AdressTB.Location = new System.Drawing.Point(828, 309);
             this.AdressTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AdressTB.Name = "AdressTB";
             this.AdressTB.Size = new System.Drawing.Size(298, 107);
@@ -259,23 +252,6 @@
             this.DOB.TabIndex = 24;
             this.DOB.Value = new System.DateTime(2024, 4, 27, 19, 45, 59, 747);
             // 
-            // DesignationCB
-            // 
-            this.DesignationCB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.DesignationCB.BackColor = System.Drawing.Color.Transparent;
-            this.DesignationCB.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.DesignationCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.DesignationCB.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DesignationCB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DesignationCB.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.DesignationCB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.DesignationCB.ItemHeight = 30;
-            this.DesignationCB.Location = new System.Drawing.Point(825, 200);
-            this.DesignationCB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.DesignationCB.Name = "DesignationCB";
-            this.DesignationCB.Size = new System.Drawing.Size(298, 36);
-            this.DesignationCB.TabIndex = 23;
-            // 
             // GenderCB
             // 
             this.GenderCB.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -287,7 +263,7 @@
             this.GenderCB.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.GenderCB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.GenderCB.ItemHeight = 30;
-            this.GenderCB.Location = new System.Drawing.Point(429, 200);
+            this.GenderCB.Location = new System.Drawing.Point(437, 200);
             this.GenderCB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.GenderCB.Name = "GenderCB";
             this.GenderCB.Size = new System.Drawing.Size(298, 36);
@@ -305,7 +281,7 @@
             this.LastNameTB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.LastNameTB.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.LastNameTB.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.LastNameTB.Location = new System.Drawing.Point(429, 80);
+            this.LastNameTB.Location = new System.Drawing.Point(437, 80);
             this.LastNameTB.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.LastNameTB.Name = "LastNameTB";
             this.LastNameTB.PasswordChar = '\0';
@@ -346,7 +322,7 @@
             this.CNICTB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CNICTB.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.CNICTB.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CNICTB.Location = new System.Drawing.Point(825, 80);
+            this.CNICTB.Location = new System.Drawing.Point(842, 80);
             this.CNICTB.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.CNICTB.Name = "CNICTB";
             this.CNICTB.PasswordChar = '\0';
@@ -375,20 +351,71 @@
             this.FirstNameTB.Size = new System.Drawing.Size(300, 48);
             this.FirstNameTB.TabIndex = 17;
             // 
-            // AddTeachersForm
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Location = new System.Drawing.Point(826, 200);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderText = "";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.Size = new System.Drawing.Size(300, 48);
+            this.guna2TextBox1.TabIndex = 34;
+            // 
+            // guna2HtmlLabel10
+            // 
+            this.guna2HtmlLabel10.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(437, 261);
+            this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(179, 44);
+            this.guna2HtmlLabel10.TabIndex = 35;
+            this.guna2HtmlLabel10.Text = "Required Class";
+            // 
+            // guna2ComboBox1
+            // 
+            this.guna2ComboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Location = new System.Drawing.Point(437, 327);
+            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.Size = new System.Drawing.Size(298, 36);
+            this.guna2ComboBox1.TabIndex = 36;
+            // 
+            // AdmissionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(197)))), ((int)(((byte)(167)))));
-            this.ClientSize = new System.Drawing.Size(1186, 597);
-            this.Controls.Add(this.guna2Panel2);
+            this.ClientSize = new System.Drawing.Size(1203, 687);
+            this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "AddTeachersForm";
-            this.Text = "AddTeachersForm";
+            this.MaximumSize = new System.Drawing.Size(1225, 743);
+            this.MinimumSize = new System.Drawing.Size(1225, 743);
+            this.Name = "AdmissionForm";
+            this.Text = "AdmissionForm";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
             this.ResumeLayout(false);
@@ -398,7 +425,6 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
@@ -412,11 +438,13 @@
         private Guna.UI2.WinForms.Guna2Button AddBtn;
         private System.Windows.Forms.RichTextBox AdressTB;
         private Guna.UI2.WinForms.Guna2DateTimePicker DOB;
-        private Guna.UI2.WinForms.Guna2ComboBox DesignationCB;
         private Guna.UI2.WinForms.Guna2ComboBox GenderCB;
         private Guna.UI2.WinForms.Guna2TextBox LastNameTB;
         private Guna.UI2.WinForms.Guna2TextBox ContactTB;
         private Guna.UI2.WinForms.Guna2TextBox CNICTB;
         private Guna.UI2.WinForms.Guna2TextBox FirstNameTB;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
     }
 }
