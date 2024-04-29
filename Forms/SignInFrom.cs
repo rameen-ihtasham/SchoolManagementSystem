@@ -35,7 +35,7 @@ namespace DBFinalProject.Forms
         private void LoginBtn_Click(object sender, EventArgs e)
         {
             MainWindowForm form = (MainWindowForm)this.Tag;
-            form.OpenChildForm(new AdminMenuForm());           
+            form.OpenChildForm(new TeacherMenuForm());           
             
         }
 
