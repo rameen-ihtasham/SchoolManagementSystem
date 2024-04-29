@@ -17,3 +17,25 @@ D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.ManageStu
 D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.ManageTeachersForm.resources
 D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.AddTeachersForm.resources
 D:\UET\DB\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Forms.ManageClassesForm.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\bin\Debug\DBFinalProject.exe.config
+C:\Users\Alishba Mazhar\SchoolManagementSystem\bin\Debug\DBFinalProject.exe
+C:\Users\Alishba Mazhar\SchoolManagementSystem\bin\Debug\DBFinalProject.pdb
+C:\Users\Alishba Mazhar\SchoolManagementSystem\bin\Debug\Guna.UI2.dll
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.csproj.AssemblyReference.cache
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.AddTeachersForm.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.AdminMenuForm.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.MainWindowForm.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.ManageClassesForm.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.ManageStudentsForm.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.ManageTeachersForm.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.SignInFrom.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.StudentMenuForm.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.TeacherMenuForm.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Properties.Resources.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.csproj.GenerateResource.cache
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.csproj.CoreCompileInputs.cache
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.csproj.CopyComplete
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.exe
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.pdb
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.VIewAttendance.resources
+C:\Users\Alishba Mazhar\SchoolManagementSystem\obj\Debug\DBFinalProject.Forms.ViewHomework.resources
