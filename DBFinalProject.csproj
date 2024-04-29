@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\Person.cs" />
     <Compile Include="Forms\AddTeachersForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +180,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Circle Education Badge Logo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DL\" />
+    <Folder Include="Queries\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
