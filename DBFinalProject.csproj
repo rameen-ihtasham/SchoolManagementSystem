@@ -198,5 +198,8 @@
   <ItemGroup>
     <None Include="Resources\Circle Education Badge Logo %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BL\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
