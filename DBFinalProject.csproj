@@ -58,6 +58,7 @@
     <Compile Include="AssignHomework.Designer.cs">
       <DependentUpon>AssignHomework.cs</DependentUpon>
     </Compile>
+    <Compile Include="BL\Person.cs" />
     <Compile Include="Forms\AddTeachersForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -225,8 +226,6 @@
   <ItemGroup>
     <None Include="Resources\Circle Education Badge Logo %281%29.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BL\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
