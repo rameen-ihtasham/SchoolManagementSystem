@@ -71,6 +71,12 @@
     <Compile Include="Forms\AdmissionForm.Designer.cs">
       <DependentUpon>AdmissionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AssignHomework.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AssignHomework.Designer.cs">
+      <DependentUpon>AssignHomework.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MainWindowForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,9 +145,6 @@
     <Compile Include="UploadResult.Designer.cs">
       <DependentUpon>UploadResult.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AssignHomework.resx">
-      <DependentUpon>AssignHomework.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddTeachersForm.resx">
       <DependentUpon>AddTeachersForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdmissionForm.resx">
       <DependentUpon>AdmissionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AssignHomework.resx">
+      <DependentUpon>AssignHomework.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainWindowForm.resx">
       <DependentUpon>MainWindowForm.cs</DependentUpon>
