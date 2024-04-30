@@ -32,14 +32,16 @@
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            //this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            //this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.PasswordTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.UserNameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.LoginBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            //this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            //this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.MainWindow.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -53,7 +55,7 @@
             this.MainWindow.Location = new System.Drawing.Point(0, 0);
             this.MainWindow.Margin = new System.Windows.Forms.Padding(0);
             this.MainWindow.Name = "MainWindow";
-            this.MainWindow.Size = new System.Drawing.Size(1572, 857);
+            this.MainWindow.Size = new System.Drawing.Size(1002, 562);
             this.MainWindow.TabIndex = 0;
             // 
             // guna2Panel2
@@ -67,7 +69,7 @@
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel2.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(798, 857);
+            this.guna2Panel2.Size = new System.Drawing.Size(486, 562);
             this.guna2Panel2.TabIndex = 3;
             // 
             // guna2Panel1
@@ -76,10 +78,10 @@
             this.guna2Panel1.Controls.Add(this.guna2Panel3);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(197)))), ((int)(((byte)(167)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(798, 0);
+            this.guna2Panel1.Location = new System.Drawing.Point(486, 0);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(774, 857);
+            this.guna2Panel1.Size = new System.Drawing.Size(516, 562);
             this.guna2Panel1.TabIndex = 2;
             // 
             // guna2Panel3
@@ -87,8 +89,10 @@
             this.guna2Panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(197)))), ((int)(((byte)(167)))));
             this.guna2Panel3.BorderRadius = 30;
-            this.guna2Panel3.Controls.Add(this.guna2Button1);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel4);
+            //this.guna2Panel3.Controls.Add(this.guna2Button1);
+            //this.guna2Panel3.Controls.Add(this.guna2HtmlLabel4);
+            //this.guna2Panel3.Controls.Add(this.guna2Button1);
+            //this.guna2Panel3.Controls.Add(this.guna2HtmlLabel4);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel3);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel2);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel1);
@@ -96,11 +100,41 @@
             this.guna2Panel3.Controls.Add(this.UserNameTextBox);
             this.guna2Panel3.Controls.Add(this.LoginBtn);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(182)))), ((int)(((byte)(145)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(27, 18);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2Panel3.Location = new System.Drawing.Point(18, 15);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(729, 802);
             this.guna2Panel3.TabIndex = 0;
+            // 
+            // guna2Button1
+            // 
+            //this.guna2Button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            //this.guna2Button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(182)))), ((int)(((byte)(145)))));
+            //this.guna2Button1.BorderRadius = 22;
+            //this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            //this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            //this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            //this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            //this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(182)))), ((int)(((byte)(145)))));
+            //this.guna2Button1.Font = new System.Drawing.Font("Sitka Small", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            //this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            //this.guna2Button1.Location = new System.Drawing.Point(42, 463);
+            //this.guna2Button1.Name = "guna2Button1";
+            //this.guna2Button1.Size = new System.Drawing.Size(409, 43);
+            //this.guna2Button1.TabIndex = 7;
+            //this.guna2Button1.Text = "Go to Admission Form";
+            //this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // guna2HtmlLabel4
+            // 
+            //this.guna2HtmlLabel4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            //this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            //this.guna2HtmlLabel4.Font = new System.Drawing.Font("Sitka Heading", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            //this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
+            //this.guna2HtmlLabel4.Location = new System.Drawing.Point(102, 428);
+            //this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            //this.guna2HtmlLabel4.Size = new System.Drawing.Size(298, 37);
+            //this.guna2HtmlLabel4.TabIndex = 6;
+            //this.guna2HtmlLabel4.Text = "If you have not registered yet";
             // 
             // guna2HtmlLabel3
             // 
@@ -153,8 +187,8 @@
             this.PasswordTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.PasswordTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.PasswordTextBox.Location = new System.Drawing.Point(57, 457);
-            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.PasswordTextBox.Location = new System.Drawing.Point(38, 297);
+            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.PasswordChar = '\0';
             this.PasswordTextBox.PlaceholderText = "";
@@ -174,8 +208,8 @@
             this.UserNameTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.UserNameTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.UserNameTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.UserNameTextBox.Location = new System.Drawing.Point(57, 305);
-            this.UserNameTextBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.UserNameTextBox.Location = new System.Drawing.Point(38, 198);
+            this.UserNameTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.UserNameTextBox.Name = "UserNameTextBox";
             this.UserNameTextBox.PasswordChar = '\0';
             this.UserNameTextBox.PlaceholderText = "";
@@ -205,42 +239,42 @@
             // 
             // guna2HtmlLabel4
             // 
-            this.guna2HtmlLabel4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Sitka Heading", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(153, 658);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(440, 54);
-            this.guna2HtmlLabel4.TabIndex = 6;
-            this.guna2HtmlLabel4.Text = "If you have not registered yet";
+            //this.guna2HtmlLabel4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            //this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            //this.guna2HtmlLabel4.Font = new System.Drawing.Font("Sitka Heading", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            //this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
+            //this.guna2HtmlLabel4.Location = new System.Drawing.Point(153, 658);
+            //this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            //this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            //this.guna2HtmlLabel4.Size = new System.Drawing.Size(440, 54);
+            //this.guna2HtmlLabel4.TabIndex = 6;
+            //this.guna2HtmlLabel4.Text = "If you have not registered yet";
             // 
             // guna2Button1
             // 
-            this.guna2Button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.guna2Button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(182)))), ((int)(((byte)(145)))));
-            this.guna2Button1.BorderRadius = 22;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(182)))), ((int)(((byte)(145)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Sitka Small", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(63, 712);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(614, 66);
-            this.guna2Button1.TabIndex = 7;
-            this.guna2Button1.Text = "Go to Admission Form";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            //this.guna2Button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            //this.guna2Button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(182)))), ((int)(((byte)(145)))));
+            //this.guna2Button1.BorderRadius = 22;
+            //this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            //this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            //this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            //this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            //this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(182)))), ((int)(((byte)(145)))));
+            //this.guna2Button1.Font = new System.Drawing.Font("Sitka Small", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            //this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            //this.guna2Button1.Location = new System.Drawing.Point(63, 712);
+            //this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            //this.guna2Button1.Name = "guna2Button1";
+            //this.guna2Button1.Size = new System.Drawing.Size(614, 66);
+            //this.guna2Button1.TabIndex = 7;
+            //this.guna2Button1.Text = "Go to Admission Form";
+            //this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // SignInFrom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1572, 857);
+            this.ClientSize = new System.Drawing.Size(1002, 562);
             this.Controls.Add(this.MainWindow);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "SignInFrom";
@@ -267,5 +301,7 @@
         private Guna.UI2.WinForms.Guna2Button LoginBtn;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+        //private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        //private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
     }
 }

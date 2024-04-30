@@ -16,8 +16,8 @@ namespace DBFinalProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-                   Application.Run(new Forms.MainWindowForm(new Forms.SignInFrom()));
-           /* Application.Run(new Forms.AdmissionForm());*/
+            Application.Run(new Forms.MainWindowForm(new Forms.SignInFrom()));
+            Application.Run(new Forms.AdmissionForm());
         }
     }
 }
