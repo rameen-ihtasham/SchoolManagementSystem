@@ -38,15 +38,5 @@ namespace DBFinalProject.Forms
             form.OpenChildForm(new TeacherMenuForm());           
             
         }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            
-        }
     }
 }
