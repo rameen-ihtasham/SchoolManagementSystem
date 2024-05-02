@@ -29,19 +29,9 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.RclassCB = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.RegistrationNoTB = new Guna.UI2.WinForms.Guna2TextBox();
             this.AddBtn = new Guna.UI2.WinForms.Guna2Button();
             this.AdressTB = new System.Windows.Forms.RichTextBox();
             this.DOB = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -50,13 +40,25 @@
             this.ContactTB = new Guna.UI2.WinForms.Guna2TextBox();
             this.CNICTB = new Guna.UI2.WinForms.Guna2TextBox();
             this.FirstNameTB = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.EmailTB = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel1);
+            this.guna2Panel1.Controls.Add(this.label10);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(0);
@@ -64,35 +66,24 @@
             this.guna2Panel1.Size = new System.Drawing.Size(1203, 114);
             this.guna2Panel1.TabIndex = 1;
             // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Sitka Heading", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(368, 14);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(409, 83);
-            this.guna2HtmlLabel1.TabIndex = 1;
-            this.guna2HtmlLabel1.Text = "Admission Form";
-            // 
             // guna2Panel3
             // 
             this.guna2Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2Panel3.Controls.Add(this.guna2ComboBox1);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel10);
-            this.guna2Panel3.Controls.Add(this.guna2TextBox1);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel9);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel8);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel7);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel6);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel5);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel4);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2Panel3.Controls.Add(this.EmailTB);
+            this.guna2Panel3.Controls.Add(this.label11);
+            this.guna2Panel3.Controls.Add(this.label9);
+            this.guna2Panel3.Controls.Add(this.label8);
+            this.guna2Panel3.Controls.Add(this.label7);
+            this.guna2Panel3.Controls.Add(this.label6);
+            this.guna2Panel3.Controls.Add(this.label5);
+            this.guna2Panel3.Controls.Add(this.label4);
+            this.guna2Panel3.Controls.Add(this.label3);
+            this.guna2Panel3.Controls.Add(this.label2);
+            this.guna2Panel3.Controls.Add(this.label1);
+            this.guna2Panel3.Controls.Add(this.RclassCB);
+            this.guna2Panel3.Controls.Add(this.RegistrationNoTB);
             this.guna2Panel3.Controls.Add(this.AddBtn);
             this.guna2Panel3.Controls.Add(this.AdressTB);
             this.guna2Panel3.Controls.Add(this.DOB);
@@ -108,163 +99,55 @@
             this.guna2Panel3.Size = new System.Drawing.Size(1173, 543);
             this.guna2Panel3.TabIndex = 2;
             // 
-            // guna2ComboBox1
+            // RclassCB
             // 
-            this.guna2ComboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Items.AddRange(new object[] {
+            this.RclassCB.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.RclassCB.BackColor = System.Drawing.Color.Transparent;
+            this.RclassCB.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.RclassCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RclassCB.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RclassCB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RclassCB.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.RclassCB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.RclassCB.ItemHeight = 30;
+            this.RclassCB.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
-            "5"});
-            this.guna2ComboBox1.Location = new System.Drawing.Point(437, 327);
-            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(298, 36);
-            this.guna2ComboBox1.TabIndex = 36;
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.RclassCB.Location = new System.Drawing.Point(437, 327);
+            this.RclassCB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.RclassCB.Name = "RclassCB";
+            this.RclassCB.Size = new System.Drawing.Size(298, 36);
+            this.RclassCB.TabIndex = 36;
+            this.RclassCB.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
-            // guna2HtmlLabel10
+            // RegistrationNoTB
             // 
-            this.guna2HtmlLabel10.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(437, 261);
-            this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(179, 44);
-            this.guna2HtmlLabel10.TabIndex = 35;
-            this.guna2HtmlLabel10.Text = "Required Class";
-            // 
-            // guna2TextBox1
-            // 
-            this.guna2TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(826, 200);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(300, 48);
-            this.guna2TextBox1.TabIndex = 34;
-            // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(32, 260);
-            this.guna2HtmlLabel9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(155, 44);
-            this.guna2HtmlLabel9.TabIndex = 33;
-            this.guna2HtmlLabel9.Text = "Date of Birth";
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(842, 261);
-            this.guna2HtmlLabel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(99, 44);
-            this.guna2HtmlLabel8.TabIndex = 32;
-            this.guna2HtmlLabel8.Text = "Address";
-            // 
-            // guna2HtmlLabel7
-            // 
-            this.guna2HtmlLabel7.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(437, 34);
-            this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(127, 44);
-            this.guna2HtmlLabel7.TabIndex = 31;
-            this.guna2HtmlLabel7.Text = "Last Name";
-            // 
-            // guna2HtmlLabel6
-            // 
-            this.guna2HtmlLabel6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(842, 34);
-            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(63, 44);
-            this.guna2HtmlLabel6.TabIndex = 30;
-            this.guna2HtmlLabel6.Text = "CNIC";
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(32, 154);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(196, 44);
-            this.guna2HtmlLabel5.TabIndex = 29;
-            this.guna2HtmlLabel5.Text = "Contact Number";
-            // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(437, 154);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(90, 44);
-            this.guna2HtmlLabel4.TabIndex = 28;
-            this.guna2HtmlLabel4.Text = "Gender";
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(842, 154);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(188, 44);
-            this.guna2HtmlLabel3.TabIndex = 27;
-            this.guna2HtmlLabel3.Text = "Registration No";
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(37)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(30, 34);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(134, 44);
-            this.guna2HtmlLabel2.TabIndex = 26;
-            this.guna2HtmlLabel2.Text = "First Name";
+            this.RegistrationNoTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.RegistrationNoTB.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.RegistrationNoTB.DefaultText = "";
+            this.RegistrationNoTB.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.RegistrationNoTB.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.RegistrationNoTB.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.RegistrationNoTB.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.RegistrationNoTB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RegistrationNoTB.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.RegistrationNoTB.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RegistrationNoTB.Location = new System.Drawing.Point(842, 200);
+            this.RegistrationNoTB.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.RegistrationNoTB.Name = "RegistrationNoTB";
+            this.RegistrationNoTB.PasswordChar = '\0';
+            this.RegistrationNoTB.PlaceholderText = "";
+            this.RegistrationNoTB.SelectedText = "";
+            this.RegistrationNoTB.Size = new System.Drawing.Size(300, 48);
+            this.RegistrationNoTB.TabIndex = 34;
             // 
             // AddBtn
             // 
@@ -282,11 +165,12 @@
             this.AddBtn.Size = new System.Drawing.Size(195, 72);
             this.AddBtn.TabIndex = 19;
             this.AddBtn.Text = "Add";
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // AdressTB
             // 
             this.AdressTB.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.AdressTB.Location = new System.Drawing.Point(828, 309);
+            this.AdressTB.Location = new System.Drawing.Point(842, 309);
             this.AdressTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AdressTB.Name = "AdressTB";
             this.AdressTB.Size = new System.Drawing.Size(298, 107);
@@ -411,6 +295,143 @@
             this.FirstNameTB.Size = new System.Drawing.Size(300, 48);
             this.FirstNameTB.TabIndex = 17;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(25, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(148, 42);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "First Name";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(430, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(141, 42);
+            this.label2.TabIndex = 38;
+            this.label2.Text = "Last Name";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(844, 30);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(78, 42);
+            this.label3.TabIndex = 39;
+            this.label3.Text = "CNIC";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(25, 150);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(211, 42);
+            this.label4.TabIndex = 40;
+            this.label4.Text = "Contact Number";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(25, 261);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(170, 42);
+            this.label5.TabIndex = 41;
+            this.label5.Text = "Date of Birth";
+            // 
+            // label6
+            // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(430, 150);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(105, 42);
+            this.label6.TabIndex = 42;
+            this.label6.Text = "Gender";
+            // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(439, 263);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(194, 42);
+            this.label7.TabIndex = 43;
+            this.label7.Text = "Required Class";
+            // 
+            // label8
+            // 
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(835, 150);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(201, 42);
+            this.label8.TabIndex = 44;
+            this.label8.Text = "Registration No";
+            // 
+            // label9
+            // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label9.Location = new System.Drawing.Point(853, 261);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(114, 42);
+            this.label9.TabIndex = 45;
+            this.label9.Text = "Address";
+            // 
+            // label10
+            // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Sitka Banner", 27.25F, System.Drawing.FontStyle.Bold);
+            this.label10.Location = new System.Drawing.Point(407, 21);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(400, 79);
+            this.label10.TabIndex = 46;
+            this.label10.Text = "Admission Form";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Sitka Banner", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label11.Location = new System.Drawing.Point(39, 393);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(86, 42);
+            this.label11.TabIndex = 46;
+            this.label11.Text = "Email";
+            // 
+            // EmailTB
+            // 
+            this.EmailTB.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.EmailTB.DefaultText = "";
+            this.EmailTB.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.EmailTB.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.EmailTB.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.EmailTB.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.EmailTB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.EmailTB.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.EmailTB.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.EmailTB.Location = new System.Drawing.Point(46, 447);
+            this.EmailTB.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.EmailTB.Name = "EmailTB";
+            this.EmailTB.PasswordChar = '\0';
+            this.EmailTB.PlaceholderText = "";
+            this.EmailTB.SelectedText = "";
+            this.EmailTB.Size = new System.Drawing.Size(300, 48);
+            this.EmailTB.TabIndex = 47;
+            // 
             // AdmissionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -434,16 +455,7 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2Button AddBtn;
         private System.Windows.Forms.RichTextBox AdressTB;
         private Guna.UI2.WinForms.Guna2DateTimePicker DOB;
@@ -452,8 +464,19 @@
         private Guna.UI2.WinForms.Guna2TextBox ContactTB;
         private Guna.UI2.WinForms.Guna2TextBox CNICTB;
         private Guna.UI2.WinForms.Guna2TextBox FirstNameTB;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
+        private Guna.UI2.WinForms.Guna2TextBox RegistrationNoTB;
+        private Guna.UI2.WinForms.Guna2ComboBox RclassCB;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label10;
+        private Guna.UI2.WinForms.Guna2TextBox EmailTB;
+        private System.Windows.Forms.Label label11;
     }
 }

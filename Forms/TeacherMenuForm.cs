@@ -33,7 +33,7 @@ namespace DBFinalProject.Forms
         }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Attendance());
+           /* OpenChildForm(new Attendance());*/
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -44,6 +44,11 @@ namespace DBFinalProject.Forms
         private void guna2Button3_Click(object sender, EventArgs e)
         {
             OpenChildForm(new AssignHomework());
+        }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

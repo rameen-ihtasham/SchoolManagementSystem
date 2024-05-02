@@ -52,13 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssignHomework.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AssignHomework.Designer.cs">
-      <DependentUpon>AssignHomework.cs</DependentUpon>
-    </Compile>
+    <Compile Include="BL\Class.cs" />
+    <Compile Include="BL\ClassStudent.cs" />
     <Compile Include="BL\Person.cs" />
+    <Compile Include="BL\User.cs" />
+    <Compile Include="DataAccess\Configuration.cs" />
+    <Compile Include="DataAccess\Queries.cs" />
     <Compile Include="Forms\AddTeachersForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +117,12 @@
     </Compile>
     <Compile Include="Forms\StudentMenuForm.Designer.cs">
       <DependentUpon>StudentMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentPassword.Designer.cs">
+      <DependentUpon>StudentPassword.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\TeacherMenuForm.cs">
       <SubType>Form</SubType>
@@ -181,6 +186,9 @@
     <EmbeddedResource Include="Forms\StudentMenuForm.resx">
       <DependentUpon>StudentMenuForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentPassword.resx">
+      <DependentUpon>StudentPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\TeacherMenuForm.resx">
       <DependentUpon>TeacherMenuForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -223,10 +231,7 @@
   <ItemGroup>
     <None Include="Resources\Circle Education Badge Logo %281%29.png" />
   </ItemGroup>
-	<ItemGroup>
-		<Folder Include="DL\" />
-		<Folder Include="Queries\" />
-	</ItemGroup>
+  <ItemGroup />
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
