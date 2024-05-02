@@ -45,8 +45,8 @@
             this.guna2Panel3.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel3.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Padding = new System.Windows.Forms.Padding(15);
-            this.guna2Panel3.Size = new System.Drawing.Size(1164, 541);
+            this.guna2Panel3.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.guna2Panel3.Size = new System.Drawing.Size(834, 439);
             this.guna2Panel3.TabIndex = 6;
             // 
             // DataTable
@@ -73,12 +73,11 @@
             this.DataTable.DefaultCellStyle = dataGridViewCellStyle3;
             this.DataTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DataTable.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.DataTable.Location = new System.Drawing.Point(15, 15);
-            this.DataTable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DataTable.Location = new System.Drawing.Point(10, 10);
             this.DataTable.Name = "DataTable";
             this.DataTable.RowHeadersVisible = false;
             this.DataTable.RowHeadersWidth = 62;
-            this.DataTable.Size = new System.Drawing.Size(1134, 511);
+            this.DataTable.Size = new System.Drawing.Size(814, 419);
             this.DataTable.TabIndex = 0;
             this.DataTable.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.DataTable.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -104,11 +103,12 @@
             // 
             // Attendance
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(91)))), ((int)(((byte)(111)))));
-            this.ClientSize = new System.Drawing.Size(1164, 541);
+            this.ClientSize = new System.Drawing.Size(834, 439);
             this.Controls.Add(this.guna2Panel3);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Attendance";
             this.Text = "Attendance";
             this.guna2Panel3.ResumeLayout(false);

@@ -126,7 +126,7 @@
             this.PasswordTextBox.PasswordChar = '\0';
             this.PasswordTextBox.PlaceholderText = "";
             this.PasswordTextBox.SelectedText = "";
-            this.PasswordTextBox.Size = new System.Drawing.Size(614, 55);
+            this.PasswordTextBox.Size = new System.Drawing.Size(409, 36);
             this.PasswordTextBox.TabIndex = 2;
             // 
             // UserNameTextBox
@@ -147,7 +147,7 @@
             this.UserNameTextBox.PasswordChar = '\0';
             this.UserNameTextBox.PlaceholderText = "";
             this.UserNameTextBox.SelectedText = "";
-            this.UserNameTextBox.Size = new System.Drawing.Size(614, 55);
+            this.UserNameTextBox.Size = new System.Drawing.Size(409, 36);
             this.UserNameTextBox.TabIndex = 1;
             // 
             // LoginBtn
@@ -165,7 +165,7 @@
             this.LoginBtn.Location = new System.Drawing.Point(52, 483);
             this.LoginBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(614, 66);
+            this.LoginBtn.Size = new System.Drawing.Size(409, 43);
             this.LoginBtn.TabIndex = 0;
             this.LoginBtn.Text = "Login";
             this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
@@ -239,11 +239,10 @@
             // 
             // SignInFrom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1572, 857);
             this.Controls.Add(this.MainWindow);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "SignInFrom";
             this.Text = "Al-Qalam School";
             this.MainWindow.ResumeLayout(false);
