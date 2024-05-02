@@ -16,5 +16,10 @@ namespace DBFinalProject.Forms
         {
             InitializeComponent();
         }
+
+        private void GenderCB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

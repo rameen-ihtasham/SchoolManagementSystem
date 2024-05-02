@@ -7,15 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using DBFinalProject.BBL;
+using DBFinalProject.DataAccess;
 namespace DBFinalProject.Forms
 {
     public partial class TeacherMenuForm : Form
     {
         public Form activeForm = null;
+        public Action loadGrid;
         public TeacherMenuForm()
         {
             InitializeComponent();
+             
         }
 
         public void OpenChildForm(Form childForm)
@@ -33,7 +36,18 @@ namespace DBFinalProject.Forms
         }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Attendance());
+         
+            Attendance attendanceForm = new Attendance();
+            Attendancee attendanceFom = new Attendancee();
+            OpenChildForm(attendanceForm);
+
+          
+          
+            attendanceForm.GetStudentsData();
+            Queries.attendanceHandling(attendanceFom);
+         
+
+
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -43,7 +57,7 @@ namespace DBFinalProject.Forms
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new AssignHomework());
+            OpenChildForm(new ManageHomework(loadGrid));
         }
     }
 }
