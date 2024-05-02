@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DBFinalProject.BL
 {
-    internal class Person
+public class Person
     {
         public int Id { get; set; }
-        public int CNIC { get; set; }
+        public string CNIC { get; set; }
         public string RegistrationNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -23,10 +23,10 @@ namespace DBFinalProject.BL
         public int UserId { get; set; }
 
 
-        public Person(int id, string registrationNumber, string firstName, string lastName, string contact, string email, string gender, string dOB, int cNIC, string address, string status, int age, int userId)
+        public Person( string firstName, string lastName, string contact, string email, string gender, string dOB, string cNIC, string address, string status, int age, int userId)
         {
-            Id = id;
-            RegistrationNumber = registrationNumber;
+            
+      
             FirstName = firstName;
             LastName = lastName;
             Contact = contact;
