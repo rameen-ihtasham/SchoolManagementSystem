@@ -4,11 +4,10 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace DBFinalProject
+namespace CRUD_Operations
 {
     class Configuration
     {
-        String ConnectionStr = @"Data Source=(local);Initial Catalog=FINALDBPROJECT;Integrated Security=True";
         SqlConnection con;
         private static Configuration _instance;
         public static Configuration getInstance()
@@ -28,3 +27,9 @@ namespace DBFinalProject
         }
     }
 }
+
+
+
+
+
+

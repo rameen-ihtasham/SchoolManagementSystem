@@ -35,13 +35,26 @@ namespace DBFinalProject.Forms
         private void LoginBtn_Click(object sender, EventArgs e)
         {
             MainWindowForm form = (MainWindowForm)this.Tag;
-            form.OpenChildForm(new TeacherMenuForm());           
+            form.OpenChildForm(new AdminMenuForm());           
             
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             
+        }
+
+       
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Form f = new AdmissionForm();
+            f.Show();
         }
     }
 }
